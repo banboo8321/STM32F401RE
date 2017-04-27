@@ -1,0 +1,16 @@
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\queue.c
+stm32f4xx-nucleo\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+stm32f4xx-nucleo\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\FreeRTOS.h
+stm32f4xx-nucleo\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+stm32f4xx-nucleo\queue.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+stm32f4xx-nucleo\queue.o: ..\..\Inc\FreeRTOSConfig.h
+stm32f4xx-nucleo\queue.o: ..\..\Inc\mxconstants.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\projdefs.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\portable.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\deprecated_definitions.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\portable\RVDS\ARM_CM4F\portmacro.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\mpu_wrappers.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\task.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\list.h
+stm32f4xx-nucleo\queue.o: ..\..\..\..\..\..\Middlewares\Third_Parties\FreeRTOS\Source\include\queue.h

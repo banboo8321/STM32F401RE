@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.22.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Microsoft, Microsoft, LIC=W96DY-IB71Y-17MRR-KBEI6-HSE4P-MXYZK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.22
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.22
+Dialog DLL:      DCM.DLL V1.13.9.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.21.0.0
+ 
+<h2>Project:</h2>
+C:\D\AZURE1_F4_V2.0.0\Projects\Multi\Applications\HTTPS_Azure\MDK-ARM\STM32F401RE-Nucleo\Project.uvprojx
+Project File Date:  02/10/2017
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'STM32F401RE_Nucleo_IKS01A2'
+compiling stm32f4xx_it.c...
+compiling main.c...
+..\..\Src\main.c(58): error:  #5: cannot open source input file "GPRS_module.h": No such file or directory
+  #include "GPRS_module.h"
+..\..\Src\main.c: 0 warnings, 1 error
+compiling stm32f4xx_hal_msp.c...
+compiling stm32_spwf_wifi.c...
+compiling lib_TagType4.c...
+compiling wifi_interface.c...
+..\..\..\..\..\..\Middlewares\ST\STM32_SPWF01SA\wifi_interface.c(41): error:  #5: cannot open source input file "GPRS_module.h": No such file or directory
+  #include "GPRS_module.h"
+..\..\..\..\..\..\Middlewares\ST\STM32_SPWF01SA\wifi_interface.c: 0 warnings, 1 error
+compiling wifi_module.c...
+..\..\..\..\..\..\Middlewares\ST\STM32_SPWF01SA\wifi_module.c(40): error:  #5: cannot open source input file "GPRS_module.h": No such file or directory
+  #include "GPRS_module.h"
+..\..\..\..\..\..\Middlewares\ST\STM32_SPWF01SA\wifi_module.c: 0 warnings, 1 error
+compiling event_buffer.c...
+compiling ring_buffer.c...
+compiling wifi_globals.c...
+compiling httpapiexsas.c...
+compiling httpapi_STM32Cube.c...
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\httpapi_STM32Cube.c(23): error:  #5: cannot open source input file "GPRS_module.h": No such file or directory
+  #include "GPRS_module.h"
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\httpapi_STM32Cube.c: 0 warnings, 1 error
+compiling platform_STM32Cube.c...
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\platform_STM32Cube.c(60): error:  #5: cannot open source input file "GPRS_module.h": No such file or directory
+  #include "GPRS_module.h"
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\platform_STM32Cube.c: 0 warnings, 1 error
+compiling threadapi_STM32Cube.c...
+compiling SynchronizationAgent.c...
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\agenttime_STM32Cube\SynchronizationAgent.c(45): error:  #5: cannot open source input file "GPRS_module.h": No such file or directory
+  #include "GPRS_module.h"
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\agenttime_STM32Cube\SynchronizationAgent.c: 0 warnings, 1 error
+compiling timingSystemNucleoF4.c...
+compiling InternetAdapter.c...
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\httpapi_STM32Cube\InternetAdapter.c(47): error:  #5: cannot open source input file "GPRS_module.h": No such file or directory
+  #include "GPRS_module.h"
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\azure-c-shared-utility\adapters\httpapi_STM32Cube\InternetAdapter.c: 0 warnings, 1 error
+compiling SocketMapping.c...
+compiling SocketOS.c...
+compiling iothub_client_sample_http.c...
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\iothub_client\sample\iothub_client_sample_http.c(324): warning:  #68-D: integer conversion resulted in a change of sign
+                                                        iterator = -1;
+..\..\..\..\..\..\Middlewares\Third_Parties\AzureIOT\iothub_client\sample\iothub_client_sample_http.c: 1 warning, 0 errors
+"STM32F4xx-Nucleo\STM32F4xx-Nucleo.axf" - 7 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.0.pack
+                ARM::CMSIS:CORE:5.0.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\D\AZURE1_F4_V2.0.0\Projects\Multi\Applications\HTTPS_Azure\MDK-ARM\STM32F401RE-Nucleo\RTE\_STM32F401RE_Nucleo_IKS01A2
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.0\Device\ARM\ARMCM4\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.0
+Target not created.
+Build Time Elapsed:  00:01:13
+</pre>
+</body>
+</html>
